@@ -1,0 +1,18 @@
+[global_config]
+[keybindings]
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    cursor_color = "#ffffff"
+    foreground_color = "#ffffff"
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    visible_bell = True
