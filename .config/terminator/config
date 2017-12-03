@@ -1,4 +1,12 @@
 [global_config]
+  always_split_with_profile = True
+  borderless = True
+  enabled_plugins = CustomCommandsMenu, LaunchpadCodeURLHandler, APTURLHandler
+  geometry_hinting = True
+  handle_size = 6
+  homogeneous_tabbar = False
+  scroll_tabbar = True
+  window_state = maximise
 [keybindings]
 [layouts]
   [[default]]
@@ -11,8 +19,10 @@
 [plugins]
 [profiles]
   [[default]]
+    background_darkness = 0.94
+    background_type = transparent
     cursor_color = "#ffffff"
+    cursor_color_fg = False
     foreground_color = "#ffffff"
     scrollback_infinite = True
     scrollbar_position = hidden
-    visible_bell = True
